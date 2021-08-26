@@ -1,0 +1,72 @@
+.App {
+  text-align: center;
+  /* margin: 20px; */
+  background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);}
+
+.add-to-cart img{
+   width: 50px;
+    height: 50px;
+    float: right;
+    margin: 20px;
+} 
+
+.cart-count{
+  position:absolute;
+  right: 15px;
+  top: 30px;
+  background-color: chocolate;
+  padding: 8px;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  color: white;
+  text-align:center;
+}
+
+.cart-wrapper{
+  height: 200px;
+  width: 500px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: rgb(84, 168, 224);
+  margin: 20px;
+  box-shadow: 0px 3px 7px;
+}
+
+.item{
+  /* display: inline-block; */
+  width: 120px;
+  padding: 20px;
+  height: 70px;
+  float: left;
+}
+
+.img-wrapper img{
+  width: 100px;
+  border-radius: 20px;
+  margin-top: 0px;
+  box-shadow: rgb(39, 36, 36) 1px 2px 4px;
+}
+
+.text-wrapper{
+  margin-top: 50px;
+}
+
+
+.btn-wrapper1 button {
+  background-color: blueviolet;
+  border: 0px;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 10px;
+  box-shadow: rgba(15, 15, 15, 0.767) 0px 2px 5px;
+}
+
+.btn-wrapper2 button {
+  background-color: rgb(233, 21, 21);
+  border: 0px;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: -10px;
+  box-shadow: rgba(15, 15, 15, 0.767) 0px 2px 5px;
+}

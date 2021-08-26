@@ -1,0 +1,89 @@
+{
+  "login": [
+    {
+      "id": 2,
+      "name": "vishma",
+      "password": "1234"
+    },
+    {
+      "id": 3,
+      "name": "Hanna",
+      "password": "1234"
+    },
+    {
+      "id": 1,
+      "name": "vish",
+      "password": "1234"
+    },
+    {
+      "name": "vish",
+      "password": "1234",
+      "id": 4
+    },
+    {
+      "name": "vishma",
+      "password": "12345",
+      "id": 5
+    },
+    {
+      "name": "vishma",
+      "password": "12345",
+      "id": 6
+    },
+    {
+      "id": 7
+    }
+  ],
+  "restaurant": [
+    {
+      "name": "Pizza Hut",
+      "address": "Gour Road",
+      "Ratting": "4.4",
+      "Email": "pizzahut@test.com",
+      "id": 1
+    },
+    {
+      "name": "McDonald",
+      "address": "Mangal Bari",
+      "Ratting": "4.8",
+      "Email": "mcdonald@test.com",
+      "id": 3
+    },
+    {
+      "name": "Silver Arched",
+      "address": "RathBari",
+      "Ratting": "4.4",
+      "Email": "sa@test.com",
+      "id": 5
+    },
+    {
+      "name": "kfc",
+      "address": "kanimore",
+      "Ratting": "5.0",
+      "Email": "kfc@test.com",
+      "id": 7
+    },
+    {
+      "name": "Pardeshi Dhaba",
+      "address": "narayanpur",
+      "Ratting": "3.9",
+      "Email": "pd@test.com",
+      "id": 8
+    },
+    {
+      "name": "Mayabon",
+      "address": "Gabgachi",
+      "Ratting": "3.5",
+      "Email": "Maya@test.com",
+      "id": 9
+    },
+    {
+      "name": "Paromita",
+      "address": "NH 34",
+      "Ratting": "4.0",
+      "Email": "Paro@test.com",
+      "noData": true,
+      "id": 10
+    }
+  ]
+}
