@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Table } from 'react-bootstrap';
-import {Link} from 'react-router-dom';
+import {Link,NavLink} from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEdit,faTrashAlt} from '@fortawesome/free-solid-svg-icons';
 import NavBarManu from "./NavBarManu";
@@ -58,7 +58,9 @@ class RestaurantList extends Component {
                                         this.state.list.map((item,i) =>
                                             <tr>
                                                 <td>{i}</td>
-                                                <td>{item.name}</td>
+                                                <td>
+                                                    <NavLink to={"/details/"}>{item.name}</NavLink>
+                                                    </td>
                                                 <td>{item.address}</td>
                                                 <td>{item.Email}</td>
                                                 <td>{item.Ratting}</td>
