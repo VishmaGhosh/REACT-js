@@ -1,7 +1,7 @@
 import React from 'react'
-import { Navbar, Container, Nav, NavDropdown } from 'react-bootstrap'
+import { Navbar, Container, Nav } from 'react-bootstrap'
 import {
-    BrowserRouter as Router, Switch, Route, Link
+    BrowserRouter as Router, Route, Link
 } from 'react-router-dom'
 import Home from './Home'
 import About from './About'

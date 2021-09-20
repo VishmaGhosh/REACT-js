@@ -47,6 +47,7 @@ function UserList(user) {
                                         } else if (val.last_name.toLowerCase().includes(searchData.toLowerCase())) {
                                             return val
                                         }
+                                        return null
                                     }).slice(pagination.start,pagination.end).map((item, i) =>
                                         <tr>
                                             <td>
